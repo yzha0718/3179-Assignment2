@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A map of airports",
+  "data": {"url": "airports_data.csv"},
+  "width": 1200,
+  "height": 800,
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/vega/vega/master/docs/data/world-110m.json",
+        "format": {"type": "topojson", "feature": "countries"}
+      },
+      "mark": {"type": "geoshape", "fill": "#ddd", "stroke": "#fff"},
+      "projection": {"type": "naturalEarth1"}
+    },
+    {
+      "data": {"graticule": true},
+      "mark": {"type": "geoshape", "stroke": "#ccc", "strokeWidth": 0.5},
+      "projection": {"type": "naturalEarth1"}
+    },
+    {
+      "mark": "circle",
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "size": {"value": 10},
+        "color": {
+          "field": "alt",
+          "type": "quantitative",
+          "scale": {"range": ["lightblue", "blue"]},
+          "legend": {"title": "Altitude"}
+        },
+        "tooltip": [
+          {"field": "name", "type": "nominal", "title": "Airport Name"},
+          {"field": "country", "type": "nominal", "title": "Country"},
+          {"field": "alt", "type": "quantitative", "title": "Altitude"}
+        ]
+      },
+      "projection": {"type": "naturalEarth1"}
+    }
+  ],
+  "config": {
+    "view": {"stroke": "transparent"}
+  }
+}

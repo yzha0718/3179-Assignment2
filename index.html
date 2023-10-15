@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Airports Across The World In 2023</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <style>
+        body, #cover {
+            background-image: url('ross-parmly-rf6ywHVkrlY-unsplash.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        #cover {
+            text-align: center;
+            color: white;
+            height: 100vh; 
+            width: 100%;  
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #cover h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: -1px -1px 0 #000,  
+                         1px -1px 0 #000,
+                        -1px  1px 0 #000,
+                         1px  1px 0 #000;
+        }
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2 {
+            margin: 0;
+            font-size: 2em;
+            color: white;
+            text-align: center;
+        }
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        main {
+            padding: 20px;
+            max-width: 100%; 
+            margin: auto; 
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+        #map, #bubble, #meal, #metro {
+            margin-bottom: 40px;
+            max-width: 100%; 
+            overflow-wrap: break-word; 
+            margin: auto;
+            text-align: center;
+        }
+        .text-content {
+            color: white;
+            max-width: 1200px; 
+            margin: auto;
+            font-family: "Times New Roman", serif; 
+            font-size:24px;
+        }
+    </style>
+</head>
+<body>
+    <div id="cover">
+        <h1>Airports Across The World In 2023</h1>
+    </div>
+
+    <main>
+      <h2>Global Distribution of Airports</h2>
+      <div id="map" style="display: flex; justify-content: center;"></div>
+      <div class="text-content">
+        <h3>Airport distribution and global reach</h3>
+        You may notice that it is no coincidence that the United States, China and Europe are home to a large number of airports. These regions are key hubs in the global aviation network, with millions of people travelling in and out of these airports every day. In contrast, countries like Australia and Canada have a relatively small number of airports despite their vast land mass.</p>
+        
+        <h3>Airports and cultural exchange</h3>
+        Europe's dense network of airports reflects not only its economic strength, but also the strong cultural and historical ties between its countries. Almost every European country has at least one international airport, making cross-border travel incredibly easy.</p>
+      </div>
+
+      <h2>Pie Chart of Airport Altitudes</h2>
+      <div id="bubble" style="display: flex; justify-content: center;"></div>
+      <div class="text-content">
+        <h3>The Impact of Altitude</h3>
+        <p>You may be surprised to learn that most airports are actually located at relatively low altitudes. This is not a coincidence, but rather because construction is usually easier at lower altitudes and aircraft performance is more consistent at these altitudes.</p>
+        
+        <h3>Challenges and Opportunities for High-Altitude Airports</h3>
+        <p>Relatively few airports are located at high altitudes due to the additional challenges that high altitude presents to flying, including low air pressure, thin oxygen, and harsh weather. However, these airports are also often the stage for pilots to demonstrate their superior flying skills.</p>
+        
+        <h3>Above 4000 Metres: Rare but Present</h3>
+        <p>Although the number of airfields above 4,000 metres is relatively small, they usually have a special use or importance. For example, some high-altitude airports are used primarily for military purposes or are essential transport hubs in certain geographical situations.</p>
+      </div>
+      
+      <h2>Number of Countries Each Airline Operates In</h2>
+      <div id="meal" style="display: flex; justify-content: center;"></div>
+      <div class="text-content">
+        <h3>How big is the "territory" of an airline?</h3>
+        <p>Have you ever wondered which airlines fly the most worldwide? More countries means more territory!</p>          
+
+        <h3>Filter the airlines you care about</h3>
+        <p>If you're particularly interested in certain airlines, you can find out how many countries they operate in. That way, the next time you fly, you'll know which airlines can take you further.</p>
+      </div>
+
+      <h2>Top 10 Countries with the Most Airports with Metro Connections</h2>
+      <div id="metro" style="display: flex; justify-content: center;"></div> 
+      <div class="text-content">
+        <h3>Metro and airport: a golden pair</h3>
+        <p>Have you ever landed in an unfamiliar city and felt lost, not knowing how to get to the city centre or your hotel? Some countries have solved this problem by connecting their airports directly to the metro system!</p>
+
+        <h3>Which country is the most convenient?</h3>
+        <p>If you're someone who travels a lot for business or pleasure, you might be wondering which country's airport is the most convenient for taking the metro. Here's a tip: some countries' airports are so well connected to the metro system that almost every airport has a metro station.</p>
+
+        <h3>Why is this important?</h3>
+        <p>Metro connections are not only convenient for travellers, but also reduce urban traffic congestion and environmental pollution. So, the next time you plan a trip, consider choosing a country with good airport connectivity.</p>
+      </div>
+    </main>
+
+    <script type="text/javascript">
+        fetch('airport_map.json')
+          .then(response => response.json())
+          .then(spec => {
+            vegaEmbed('#map', spec);
+          })
+          .catch(err => console.error(err));
+
+        fetch('airport_altitudes.json')
+          .then(response => response.json())
+          .then(spec => {
+            vegaEmbed('#bubble', spec);
+          })
+          .catch(err => console.error(err));
+
+        fetch('airlines_countries_bar.json')  
+          .then(response => response.json())
+          .then(spec => {
+            vegaEmbed('#meal', spec);
+          })
+          .catch(err => console.error(err));
+
+        fetch('airports_with_metro.json')  
+          .then(response => response.json())
+          .then(spec => {
+            vegaEmbed('#metro', spec);
+          })
+          .catch(err => console.error(err));  
+    </script>
+</body>
+</html>

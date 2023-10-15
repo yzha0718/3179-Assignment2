@@ -1,0 +1,30 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Pie Chart of Airport Altitudes",
+  "data": {"url": "airports_data.csv"},
+  "width": 400,
+  "height": 400,
+  "transform": [
+    {
+      "calculate": "datum.alt < 1000 ? '0-1000m' : datum.alt < 2000 ? '1000-2000m' : datum.alt < 3000 ? '2000-3000m' : datum.alt < 4000 ? '3000-4000m' : '4000m+'",
+      "as": "Altitude_Range"
+    },
+    {
+      "aggregate": [{"op": "count", "as": "Number_of_Airports"}],
+      "groupby": ["Altitude_Range"]
+    }
+  ],
+  "mark": {"type": "arc", "tooltip": true},
+  "encoding": {
+    "theta": {"field": "Number_of_Airports", "type": "quantitative", "stack": "normalize"},
+    "color": {
+      "field": "Altitude_Range", 
+      "type": "nominal",
+      "legend": {"title": "Altitude Range"}
+    },
+    "tooltip": [
+      {"field": "Altitude_Range", "type": "nominal", "title": "Altitude Range"},
+      {"field": "Number_of_Airports", "type": "quantitative", "title": "Number of Airports"}
+    ]
+  }
+}

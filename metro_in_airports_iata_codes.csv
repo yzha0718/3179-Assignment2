@@ -1,0 +1,437 @@
+,IATACode,Country,State,Name
+0,AAN,AE,,Al Ain
+1,ABC,ES,,Albacete
+2,ABZ,GB,,Aberdeen
+3,ADA,TR,,Adana
+4,AGP,ES,,Malaga
+5,ALC,ES,,Alicante
+6,ALY,EG,,Alexandria
+7,AMA,US,TX,Amarillo
+8,AMM,JO,,Amman
+9,AMS,NL,,Amsterdam
+10,ANC,US,AK,Anchorage
+11,ANE,FR,,Angers
+12,ANK,TR,,Ankara
+13,ANR,BE,,Antwerp
+14,APW,WS,,Apia
+15,ARD,ID,,Alor
+16,ARH,RU,,Arkhangelsk
+17,ATL,US,GA,Atlanta
+18,AUH,AE,,Abu Dhabi
+19,AUW,US,WI,Wausau
+20,AVN,FR,,Avignon
+21,BAK,AZ,,Baku
+22,BAR,CN,,Qionghai
+23,BCN,ES,,Barcelona
+24,BDS,IT,,Brindisi
+25,BEG,RS,,Belgrade
+26,BER,DE,,Berlin
+27,BFS,GB,,Belfast
+28,BGO,NO,,Bergen
+29,BHX,GB,,Birmingham
+30,BHY,CN,,Beihai
+31,BHZ,BR,MG,Belo Horizonte
+32,BIM,BS,,Bimini
+33,BIO,ES,,Bilbao
+34,BJS,CN,,Beijing
+35,BJV,TR,,Bodrum
+36,BKK,TH,,Bangkok
+37,BLE,SE,,Borlange/Falun
+38,BLQ,IT,,Bologna
+39,BOD,FR,,Bordeaux
+40,BOS,US,MA,Boston
+41,BPT,US,TX,Beaumont/Port Arthur
+42,BRE,DE,,Bremen
+43,BRI,IT,,Bari
+44,BRN,CH,,Bern
+45,BRQ,CZ,,Brno
+46,BRS,GB,,Bristol
+47,BRU,BE,,Brussels
+48,BTS,SK,,Bratislava
+49,BUD,HU,,Budapest
+50,BUE,AR,BA,Buenos Aires
+51,BUH,RO,,Bucharest
+52,BZE,BZ,,Belize City
+53,BZO,IT,,Bolzano/Bozen
+54,CAN,CN,,Guangzhou
+55,CDV,US,AK,Cordova
+56,CGN,DE,,Cologne/Bonn
+57,CGO,CN,,Zhengzhou
+58,CGQ,CN,,Changchun
+59,CHI,US,IL,Chicago
+60,CIF,CN,,Chifeng
+61,CKG,CN,,Chongqing
+62,CLE,US,OH,Cleveland
+63,CLT,US,NC,Charlotte
+64,CMB,LK,,Colombo
+65,CMH,US,OH,Columbus
+66,CND,RO,,Constanta
+67,CPH,DK,,Copenhagen
+68,CSX,CN,,Changsha
+69,CTU,CN,,Chengdu
+70,CVG,US,OH,Cincinnati
+71,CWB,BR,PR,Curitiba
+72,CWL,GB,,Cardiff
+73,DAX,CN,,Dazhou
+74,DAY,US,OH,Dayton
+75,DDG,CN,,Dandong
+76,DEN,US,CO,Denver
+77,DFW,US,TX,Dallas
+78,DKR,SN,,Dakar
+79,DLC,CN,,Dalian
+80,DMM,SA,,Dammam
+81,DOH,QA,,Doha
+82,DOM,DM,,Dominica
+83,DQA,CN,,Daqing
+84,DRO,US,CO,Durango
+85,DRS,DE,,Dresden
+86,DSA,GB,,Doncaster/Sheffield
+87,DTM,DE,,Dortmund
+88,DTT,US,MI,Detroit
+89,DUR,ZA,,Durban
+90,DUS,DE,,Duesseldorf
+91,DXB,AE,,Dubai
+92,EAP,CH,,Mulhouse/Basel
+93,EAS,ES,,San Sebastian
+94,EBU,FR,,Saint Etienne
+95,ECP,US,FL,Panama City
+96,EDI,GB,,Edinburgh
+97,EGE,US,CO,Vail/Eagle
+98,ENH,CN,,Enshi
+99,ERF,DE,,Erfurt
+100,ESK,TR,,Eskisehir
+101,ETH,IL,,Eilat
+102,ETZ,FR,,Metz/Nancy
+103,EXT,GB,,Exeter
+104,FIH,CD,,Kinshasa
+105,FKB,DE,,Karlsruhe/Baden-Baden
+106,FLR,IT,,Florence
+107,FMO,DE,,Muenster/Osnabrueck
+108,FMY,US,FL,Fort Myers
+109,FNA,SL,,Freetown
+110,FNI,FR,,Nimes
+111,FOG,IT,,Foggia
+112,FRA,DE,,Frankfurt
+113,FUO,CN,,Foshan
+114,FYV,US,AR,Fayetteville/Springdale
+115,GAO,CU,,Guantanamo
+116,GCN,US,AZ,Grand Canyon
+117,GDN,PL,,Gdansk
+118,GEO,GY,,Georgetown
+119,GLA,GB,,Glasgow
+120,GLZ,NL,,Breda
+121,GOA,IT,,Genoa
+122,GOI,IN,GA,Goa
+123,GOT,SE,,Goteborg
+124,GRO,ES,,Girona
+125,GRX,ES,,Granada
+126,GRZ,AT,,Graz
+127,GUM,GU,,Guam
+128,GVA,CH,,Geneva
+129,GVX,SE,,Gavle
+130,GXA,ID,,Muara Teweh
+131,HAJ,DE,,Hannover
+132,HAM,DE,,Hamburg
+133,HAR,US,PA,Harrisburg
+134,HAV,CU,,Havana
+135,HFD,US,CT,Hartford
+136,HFE,CN,,Hefei
+137,HGH,CN,,Hangzhou
+138,HIN,KR,,Jinju
+139,HJJ,CN,,Huaihua
+140,HNY,CN,,Hengyang
+141,HOB,US,NM,Hobbs
+142,HOU,US,TX,Houston
+143,HRB,CN,,Harbin
+144,HRI,LK,,Hambantota
+145,HVN,US,CT,New Haven
+146,HYD,IN,TG,Hyderabad
+147,ICT,US,KS,Wichita
+148,ILD,ES,,Lleida
+149,ILE,US,TX,Killeen/Fort Hood
+150,ILG,US,DE,Wilmington
+151,INN,AT,,Innsbruck
+152,INV,GB,,Inverness
+153,ISC,GB,,Isles of Scilly
+154,ISN,US,ND,Williston
+155,IST,TR,,Istanbul
+156,IZM,TR,,Izmir
+157,JAN,US,MS,Jackson
+158,JDF,BR,MG,Juiz de Fora
+159,JIQ,CN,,Qianjiang
+160,JIU,CN,,Jiujiang
+161,JKT,ID,,Jakarta
+162,JNB,ZA,,Johannesburg
+163,JOG,ID,,Yogyakarta
+164,KCL,US,AK,Chignik
+165,KHN,CN,,Nanchang
+166,KIN,JM,,Kingston
+167,KLU,AT,,Klagenfurt
+168,KRK,PL,,Krakow
+169,KRS,NO,,Kristiansand
+170,KSF,DE,,Kassel
+171,KTW,PL,,Katowice
+172,KUA,MY,,Kuantan
+173,KUL,MY,,Kuala Lumpur
+174,KWE,CN,,Guiyang
+175,KWL,CN,,Guilin
+176,LAD,AO,,Luanda
+177,LAS,US,NV,Las Vegas
+178,LAX,US,CA,Los Angeles
+179,LBA,GB,,Leeds/Bradford
+180,LBB,US,TX,Lubbock
+181,LCC,IT,,Lecce
+182,LCG,ES,,A Coruna
+183,LCJ,PL,,Lodz
+184,LED,RU,,Saint Petersburg
+185,LEJ,DE,,Leipzig/Halle
+186,LEN,ES,,Leon
+187,LEX,US,KY,Lexington
+188,LGG,BE,,Liege
+189,LHW,CN,,Lanzhou
+190,LIL,FR,,Lille
+191,LJU,SI,,Ljubljana
+192,LME,FR,,Le Mans
+193,LNZ,AT,,Linz
+194,LON,GB,,London
+195,LPL,GB,,Liverpool
+196,LQP,CN,,Chenzhou
+197,LUG,CH,,Lugano
+198,LUL,US,MS,Hattiesburg/Laurel
+199,LVA,FR,,Laval
+200,LYS,FR,,Lyon
+201,LZH,CN,,Liuzhou
+202,MAD,ES,,Madrid
+203,MAN,GB,,Manchester
+204,MAO,BR,AM,Manaus
+205,MCN,US,GA,Macon
+206,MDE,CO,,Medellin
+207,MEL,AU,VI,Melbourne
+208,MES,ID,,Medan
+209,MEX,MX,,Mexico City
+210,MFM,MO,,Macau
+211,MHG,DE,,Mannheim
+212,MIL,IT,,Milan
+213,MJV,ES,,Murcia
+214,MKC,US,MO,Kansas City
+215,MKE,US,WI,Milwaukee
+216,MLW,LR,,Monrovia
+217,MMA,SE,,Malmo
+218,MME,GB,,Durham
+219,MNL,PH,,Manila
+220,MOB,US,AL,Mobile
+221,MOH,ID,,Morowali
+222,MOW,RU,,Moscow
+223,MPL,FR,,Montpellier
+224,MRE,KE,,Maasai Mara
+225,MRS,FR,,Marseille
+226,MSP,US,MN,Minneapolis/Saint Paul
+227,MST,NL,,Maastricht
+228,MSY,US,LA,New Orleans
+229,MTS,SZ,,Manzini
+230,MTY,MX,,Monterrey
+231,MUC,DE,,Munich
+232,MVD,UY,,Montevideo
+233,NAP,IT,,Naples
+234,NBO,KE,,Nairobi
+235,NGB,CN,,Ningbo
+236,NGO,JP,,Nagoya
+237,NHA,VN,,Nha Trang
+238,NKG,CN,,Nanjing
+239,NLP,ZA,,Nelspruit
+240,NNG,CN,,Nanning
+241,NOU,NC,,Noumea
+242,NQT,GB,,Nottingham
+243,NRK,SE,,Norrkoping
+244,NTE,FR,,Nantes
+245,NTL,AU,NS,Newcastle
+246,NUE,DE,,Nuremberg
+247,NYC,US,NY,New York
+248,ODB,ES,,Cordoba
+249,OHD,MK,,Ohrid
+250,OKA,JP,,Okinawa
+251,OKC,US,OK,Oklahoma City
+252,OMA,US,NE,Omaha
+253,OOL,AU,QL,Gold Coast
+254,OPO,PT,,Porto
+255,ORL,US,FL,Orlando
+256,ORN,DZ,,Oran
+257,OSA,JP,,Osaka
+258,OSL,NO,,Oslo
+259,OSR,CZ,,Ostrava
+260,OVI,ES,,Oviedo
+261,OXF,GB,,Oxford
+262,PAR,FR,,Paris
+263,PBI,US,FL,West Palm Beach
+264,PBM,SR,,Paramaribo
+265,PDP,UY,,Punta del Este
+266,PEG,IT,,Perugia
+267,PGF,FR,,Perpignan
+268,PHL,US,PA,Philadelphia
+269,PHX,US,AZ,Phoenix
+270,PIP,US,AK,Pilot Point
+271,PIS,FR,,Poitiers
+272,PLQ,LT,,Klaipeda/Palanga
+273,PNA,ES,,Pamplona
+274,POZ,PL,,Poznan
+275,PRG,CZ,,Prague
+276,PSA,IT,,Pisa
+277,PSR,IT,,Pescara
+278,PTY,PA,,Panama City
+279,PUS,KR,,Busan
+280,PVD,US,RI,Providence
+281,QBX,BR,CE,Sobral
+282,QCN,BR,RS,Canela
+283,QIJ,ES,,Gijon
+284,QRV,FR,,Arras
+285,QSR,IT,,Salerno
+286,RBA,MA,,Rabat
+287,REG,IT,,Reggio di Calabria
+288,REK,IS,,Reykjavik
+289,RGS,ES,,Burgos
+290,RHE,FR,,Reims
+291,RIO,BR,RJ,Rio de Janeiro
+292,RJL,ES,,Logrono
+293,RKZ,CN,,Xigaze/Rikaze
+294,RLG,DE,,Rostock
+295,RNB,SE,,Ronneby/Karlskrona
+296,RNS,FR,,Rennes
+297,ROC,US,NY,Rochester
+298,ROM,IT,,Rome
+299,RTM,NL,,Rotterdam
+300,RTW,RU,,Saratov
+301,RUH,SA,,Riyadh
+302,RYL,ZM,,Lower Zambezi National Park
+303,SAC,US,CA,Sacramento
+304,SAL,SV,,San Salvador
+305,SAN,US,CA,San Diego
+306,SAO,BR,SP,Sao Paulo
+307,SAV,US,GA,Savannah
+308,SBY,US,MD,Salisbury/Ocean City
+309,SCQ,ES,,Santiago de Compostela
+310,SDL,SE,,Sundsvall/Harnosand
+311,SDQ,DO,,Santo Domingo
+312,SDR,ES,,Santander
+313,SDZ,GB,,Shetland Islands
+314,SEA,US,WA,Seattle
+315,SEL,KR,,Seoul
+316,SFQ,TR,,Sanliurfa
+317,SHA,CN,,Shanghai
+318,SHE,CN,,Shenyang
+319,SHS,CN,,Jingzhou
+320,SIA,CN,,Xi'an
+321,SIN,SG,,Singapore
+322,SJC,US,CA,San Jose
+323,SJO,CR,,San Jose
+324,SJU,PR,,San Juan
+325,SJW,CN,,Shijiazhuang
+326,SLM,ES,,Salamanca
+327,SLU,LC,,Saint Lucia
+328,SPK,JP,,Sapporo
+329,SQS,BZ,,San Ignacio
+330,SRI,ID,,Samarinda
+331,SRZ,BO,,Santa Cruz
+332,SSI,US,GA,Brunswick
+333,SSM,US,MI,Sault Sainte Marie
+334,STL,US,MO,Saint Louis
+335,STO,SE,,Stockholm
+336,STR,DE,,Stuttgart
+337,STT,VI,,Saint Thomas Island
+338,STX,VI,,Saint Croix Island
+339,SUF,IT,,Lamezia Terme
+340,SUN,US,ID,Hailey/Sun Valley
+341,SVG,NO,,Stavanger
+342,SVQ,ES,,Sevilla
+343,SWA,CN,,Shantou
+344,SWQ,ID,,Sumbawa
+345,SXB,FR,,Strasbourg
+346,SYD,AU,NS,Sydney
+347,SYR,US,NY,Syracuse
+348,SZG,AT,,Salzburg
+349,SZX,CN,,Shenzhen
+350,SZZ,PL,,Szczecin
+351,TCI,ES,,Tenerife
+352,TGM,RO,,Targu Mures
+353,TGU,HN,,Tegucigalpa
+354,THR,IR,,Tehran
+355,TIA,AL,,Tirana
+356,TIP,LY,,Tripoli
+357,TKU,FI,,Turku
+358,TLL,EE,,Tallinn
+359,TLN,FR,,Toulon/Hyeres
+360,TLS,FR,,Toulouse
+361,TLV,IL,,Tel Aviv-Yafo
+362,TMP,FI,,Tampere
+363,TOL,US,OH,Toledo
+364,TOV,VG,,Tortola
+365,TOX,RU,,Tobolsk
+366,TPA,US,FL,Tampa
+367,TPE,TW,,Taipei
+368,TRD,NO,,Trondheim
+369,TRN,IT,,Turin
+370,TRS,IT,,Trieste
+371,TSN,CN,,Tianjin
+372,TUF,FR,,Tours
+373,TVS,CN,,Tangshan
+374,TWB,AU,QL,Toowoomba
+375,TYN,CN,,Taiyuan
+376,TYO,JP,,Tokyo
+377,UBS,US,MS,Columbus
+378,ULN,MN,,Ulaanbaatar
+379,ULY,RU,,Ulyanovsk
+380,UYN,CN,,Yulin
+381,VAF,FR,,Valence
+382,VCE,IT,,Venice
+383,VGO,ES,,Vigo
+384,VIE,AT,,Vienna
+385,VIT,ES,,Vitoria
+386,VLC,ES,,Valencia
+387,VLL,ES,,Valladolid
+388,VPS,US,FL,Destin/Fort Walton Beach
+389,VRA,CU,,Varadero
+390,VRN,IT,,Verona
+391,WAS,US,DC,Washington
+392,WAW,PL,,Warsaw
+393,WCA,CL,,Castro
+394,WDH,NA,,Windhoek
+395,WDS,CN,,Shiyan
+396,WGN,CN,,Shaoyang
+397,WHU,CN,,Wuhu
+398,WUH,CN,,Wuhan
+399,WUZ,CN,,Wuzhou
+400,WXN,CN,,Wanzhou
+401,XAI,CN,,Xinyang
+402,XFN,CN,,Xiangyang
+403,XHV,RO,,Brasov
+404,XRY,ES,,Jerez
+405,XUZ,CN,,Xuzhou
+406,YAO,CM,,Yaounde
+407,YAZ,CA,BC,Tofino
+408,YCD,CA,BC,Nanaimo
+409,YEA,CA,AB,Edmonton
+410,YGK,CA,ON,Kingston
+411,YGP,CA,QC,Gaspe
+412,YHZ,CA,NS,Halifax
+413,YIH,CN,,Yichang
+414,YMQ,CA,QC,Montreal
+415,YOW,CA,ON,Ottawa
+416,YPW,CA,BC,Powell River
+417,YQB,CA,QC,Quebec
+418,YQG,CA,ON,Windsor
+419,YQM,CA,NB,Moncton
+420,YTO,CA,ON,Toronto
+421,YVA,KM,,Moroni
+422,YVR,CA,BC,Vancouver
+423,YWG,CA,MB,Winnipeg
+424,YXU,CA,ON,London
+425,YYA,CN,,Yueyang
+426,YYJ,CA,BC,Victoria
+427,ZAG,HR,,Zagreb
+428,ZAZ,ES,,Zaragoza
+429,ZCO,CL,,Temuco
+430,ZEL,CA,BC,Bella Bella
+431,ZRH,CH,,Zurich
+432,ZRQ,CH,,SBB Rail
+433,ZUH,CN,,Zhuhai
+434,ZYI,CN,,Zunyi
+435,ZYM,NL,,Arnhem

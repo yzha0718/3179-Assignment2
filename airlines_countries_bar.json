@@ -1,0 +1,118 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A bar chart showing the number of countries each airline operates in.",
+  "data": {"url": "airlines_and_countries_they_operate_in.csv"},
+  "hconcat": [
+    {
+      "vconcat": [
+        {
+          "title": "Use this chart to filter data",
+          "width": 600,
+          "height": 100,
+          "params": [
+            {
+              "name": "brush",
+              "select": {"type": "interval", "encodings": ["x"]}
+            }
+          ],
+          "transform": [
+            {
+              "calculate": "length(split(datum.Countries, ','))",
+              "as": "num_countries"
+            }
+          ],
+          "mark": "bar",
+          "encoding": {
+            "x": {
+              "field": "Name",
+              "type": "ordinal",
+              "sort": {"field": "num_countries", "order": "descending"},
+              "axis": {
+                "title": "Airline",
+                "labels": false
+              }
+            },
+            "y": {
+              "field": "num_countries",
+              "type": "quantitative",
+              "axis": {"title": "Number of Countries"}
+            },
+            "tooltip": [
+              {"field": "Name", "type": "ordinal", "title": "Airline"},
+              {"field": "num_countries", "type": "quantitative", "title": "Number of Countries"}
+            ]
+          }
+        },
+        {
+          "transform": [
+            {
+              "calculate": "length(split(datum.Countries, ','))",
+              "as": "num_countries"
+            },
+            {
+              "filter": {"param": "brush"}
+            }
+          ],
+          "width": 600,
+          "mark": "bar",
+          "encoding": {
+            "x": {
+              "field": "Name",
+              "type": "ordinal",
+              "sort": {"field": "num_countries", "order": "descending"},
+              "axis": {
+                "title": "Airline",
+                "labelAngle": -45,
+                "labels": false
+              }
+            },
+            "y": {
+              "field": "num_countries",
+              "type": "quantitative",
+              "axis": {"title": "Number of Countries"}
+            },
+            "tooltip": [
+              {"field": "Name", "type": "ordinal", "title": "Airline"},
+              {"field": "num_countries", "type": "quantitative", "title": "Number of Countries"}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Top 10 Airlines by Number of Countries",
+      "width": 300,
+      "transform": [
+        {
+          "calculate": "length(split(datum.Countries, ','))",
+          "as": "num_countries"
+        },
+        {
+          "window": [{"op": "rank", "as": "rank"}],
+          "sort": [{"field": "num_countries", "order": "descending"}]
+        },
+        {
+          "filter": "datum.rank <= 10"
+        }
+      ],
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "num_countries",
+          "type": "quantitative",
+          "axis": {"title": "Number of Countries"}
+        },
+        "y": {
+          "field": "Name",
+          "type": "ordinal",
+          "sort": {"field": "num_countries", "order": "descending"},
+          "axis": {"title": "Airline"}
+        },
+        "tooltip": [
+          {"field": "Name", "type": "ordinal", "title": "Airline"},
+          {"field": "num_countries", "type": "quantitative", "title": "Number of Countries"}
+        ]
+      }
+    }
+  ]
+}

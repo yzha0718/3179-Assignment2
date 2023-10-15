@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A bar chart showing the Top 10 countries with the most airports with metro connections.",
+  "data": {"url": "airports_data.csv"},
+  "width": 600,
+  "transform": [
+    {
+      "lookup": "iata",
+      "from": {
+        "data": {"url": "metro_in_airports_iata_codes.csv"},
+        "key": "IATACode"
+      },
+      "as": "metro"
+    },
+    {
+      "filter": "datum.metro !== null"
+    },
+    {
+      "aggregate": [{"op": "count", "as": "num_airports"}],
+      "groupby": ["country"]
+    },
+    {
+      "window": [{"op": "rank", "as": "rank"}],
+      "sort": [{"field": "num_airports", "order": "descending"}]
+    },
+    {
+      "filter": "datum.rank <= 10"
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "country",
+      "type": "ordinal",
+      "axis": {
+        "title": "Country",
+        "labelAngle": -45
+      },
+      "sort": {"field": "num_airports", "order": "descending"}
+    },
+    "y": {
+      "field": "num_airports",
+      "type": "quantitative",
+      "axis": {"title": "Number of Airports with Metro"}
+    },
+    "tooltip": [
+      {"field": "country", "type": "ordinal", "title": "Country"},
+      {"field": "num_airports", "type": "quantitative", "title": "Number of Airports with Metro"}
+    ]
+  }
+}
